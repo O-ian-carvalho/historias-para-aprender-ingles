@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #fff;
+}
+
+.top{
+    background-color: rgb(1, 1, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.top .left{
+    width: 500px;
+    color: #fff;
+    margin: 40px;
+}
+.left h2{
+    font-size: 25pt;
+    margin-bottom: 5px;
+}
+
+.top img{
+    width: 250px;
+    border: 4px solid rgba(150, 152, 230, 0.79);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #fff;
+}
+
+.comprar{
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff02;
+    border: 2px solid rgb(150, 230, 198);
+    border-radius: 10px;
+    font-size: 15pt;
+    margin-top: 30px;
+    color: #15f668;
+    font-weight: bold;
+
+}
+.comprar:hover{
+    background-color: #ffffffa7;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1000px){
+    .top .left{
+        margin: 10px;
+        margin-bottom: 30px;
+        max-width: 90vw;
+        
+    }
+
+    .top{
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+   
+
+    .top img{
+        margin-bottom: 20px;
+    }
+
+    
+}
+.sotexto{
+    text-align: center;
+    padding: 50px;
+    font-size: 18pt;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #fff;
+
+}
+@media(max-width: 1000px){
+    .sotexto{
+        padding: 50px 20px ;
+    }
+}
+
+.cinza{
+    background-color: #f5fbff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+.beneficios {
+    padding: 20px;
+    background-color: #fff;
+}
+.beneficios h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-size: 18pt;
+}
+
+.beneficios ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    font-size: 16pt;
+}
+.beneficios li {
+    margin-bottom: 20px;
+}
+.beneficios li span {
+    font-weight: bold;
+}
+.funciona h3{
+    font-size: 18pt;
+    margin-bottom: 30px;
+}
+
+.call{
+    background-color: rgb(2, 2, 140);
+    padding: 40px 20px;
+}
+.call p{
+    font-size: 18pt;
+    color: #fff;
+}
