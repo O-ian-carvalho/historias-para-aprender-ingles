@@ -10,10 +10,10 @@ body{
 #navquiz{
     text-align: center;
     width: 100%;
-    background-color: rgb(117, 87, 225);
-    padding: 15px;
+    background-color: rgb(1, 1, 134);
+    padding:  15px 0;
     color: #fff;
-    font-size:12pt;
+    font-size:10pt;
 }
 #bodyquiz{
     padding: 15px;

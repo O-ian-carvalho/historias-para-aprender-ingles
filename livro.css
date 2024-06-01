@@ -43,6 +43,7 @@ body{
     font-size: 15pt;
     margin-top: 30px;
     color: #15f668;
+    box-shadow: 0px 0px 10px #15f668;
     font-weight: bold;
 
 }
@@ -75,20 +76,16 @@ body{
 }
 .sotexto{
     text-align: center;
-    padding: 50px;
+    padding: 50px 100px;
     font-size: 18pt;
     font-family: "Josefin Sans", sans-serif;
     background-color: #fff;
 
 }
-@media(max-width: 1000px){
-    .sotexto{
-        padding: 50px 20px ;
-    }
-}
+
 
 .cinza{
-    background-color: #f5fbff;
+    background-color: #e5eff6;
 }
 
 body {
@@ -99,7 +96,7 @@ body {
     color: #333;
 }
 .beneficios {
-    padding: 20px;
+    padding: 50px 100px;
     background-color: #fff;
 }
 .beneficios h3 {
@@ -133,4 +130,13 @@ body {
 .call p{
     font-size: 18pt;
     color: #fff;
+}    
+
+@media(max-width: 1000px){
+    .sotexto{
+        padding: 50px 20px ;
+    }
+    .beneficios {
+        padding: 20px;
+    }
 }

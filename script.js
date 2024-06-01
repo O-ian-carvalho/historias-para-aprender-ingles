@@ -8,7 +8,7 @@ const perguntas =[
     "Quando você tenta se comunicar em inglês, parece que as palavras desaparecem?",
     "Você gostaria de conseguir conversar sobre qualquer assunto em inglês?",
     "Você acha que conseguir assistir/ler conteúdos em inglês lhe ajudaria no dia a dia?",
-    "Sabia que existe um livro que melhora o inglês através de histórias, gostaria de dar uma olhada? "
+    "Quer conhecer o eBook que vai desbloquear seu inglês de uma vez por todas?"
 ]
 
 let i = 0;
@@ -16,6 +16,8 @@ function load(){
     if (i < perguntas.length){
         pergunta.innerText = perguntas[i]
         i++
+    } else{
+        window.location.href = "livro.html"
     }
 }
 load()
